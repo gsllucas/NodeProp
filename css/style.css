@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Product Sans';
+    border: none;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn-menu {
+    border: none;
+    border-radius: 56px;
+    background: linear-gradient(to right, #ce2e3c, #da6709);
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    color: white;
+}
+
+.main-container {
+    margin: 0 auto;
+
+}
+
+.logo {
+    height: 56px;
+    width: 56px;
+    background-image: url('../img/icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/**/
+
+.menu {
+    display: none;
+}
+
+.buttons {
+    flex-direction: column;
+}
+
+/* MAIN CONTAINER */
+
+.cadastro-e-sobre {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.cadastro-e-sobre h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.cadastro-e-sobre p {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.logoBackground {
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.max-1280 {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttons a {
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #130400;
+    font-size: 1.5rem;
+    width: 300px;
+}
+
+.buttons a:nth-child(2) {
+    background-color: #130400;
+    color: #fff;
+}
+
+.buttons i {
+    float: right;
+}
+
+.fa-question {
+    color: #130400;
+}
+
+/* SECTIONS CARDS */
+
+.cards {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    flex: 1 386px;
+}
+
+.cards img {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards h2 {
+    padding: 20px;
+}
+
+.cards h3 {
+    padding: 0 0 20px 20px;
+    font-weight: lighter;
+}
+
+.cards p {
+    padding: 20px;
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+    background-color: #130400;
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter input {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.newsletter button {
+    padding: 20px;
+    color: #fff;
+    background: linear-gradient(to right, #ce2e3c, #da6709);
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background: linear-gradient(to right, #da6709, #ce2e3c);
+}
+
+/* FOOTER */
+
+.footer {
+    background: linear-gradient(to right, #ce2e3c, #da6709);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer i {
+    color: #fff;
+    font-size: 2rem;
+    padding: 0px 10px 20px;
+}
+
+.footer p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Menu mobile */
+
+.menuMobile {
+    background-color: #130400f8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.menuMobile ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.menuMobile li {
+    text-align: center;
+    width: 200px;
+}
+
+.menuMobile ul a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.menuMobile ul a li:hover {
+    text-decoration: underline;
+}
+
+.btn-close {
+    border: none;
+    border-radius: 56px;
+    background: linear-gradient(to right, #ce2e3c, #da6709);
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    z-index: 1000;
+    display: none;
+}
+
+
+#home {
+    border-bottom: none;
+}
+
+
+
+

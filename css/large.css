@@ -1,0 +1,94 @@
+@media (min-width: 720px) {
+    .menu {
+        display: block;
+    }
+
+    .menu ul {
+        list-style: none;
+    }
+
+    .menu ul li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    .menu ul a:last-child {
+        padding-right: 0px;
+    }
+
+    .menu ul a:first-child{
+        background: linear-gradient(to right, #ce2e3c, #da6709);
+        color: #fff;
+        border-radius: 0px 56px 56px 0px;
+        padding: 5px;
+    }
+
+    .menu ul a:first-child:hover{
+        background: linear-gradient(to right, #da6709, #ce2e3c);
+
+    }
+
+    .menu a {
+        color: #ce2e3c;
+    }
+
+    .btn-menu {
+        display: none;
+    }
+
+    .buttons a:first-child {
+        margin-right: 10px;
+    }
+    
+    .buttons a:last-child {
+        margin-left: 10px;
+    }
+
+    .buttons {
+        flex-direction: row;
+    }
+
+    .buttons a {
+        width: 45%;
+        padding: 40px 20px;
+        font-size: 2.3rem;
+    }
+
+    .menu img {
+        display: none;
+    }
+}
+
+/**/
+
+@media (min-width: 1280px) {
+    .logo {
+        display: none;
+    }
+
+    .menu img {
+        display: block;
+        width: 300px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .menu li {
+        font-size: 1.5rem;
+        border-bottom: 2px solid #f3f3f3;
+    }
+
+
+
+    .menu li:hover {
+        border-bottom: 2px solid #ce2e3c;
+        transition: 0.3s;
+    }
+}
